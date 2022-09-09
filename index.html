@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates Teal</title>
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/responsive.css">
+    <link rel="stylesheet" href="./assests/fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <i class="icon-heading fa-solid fa-bars" onclick="openSidebar()"></i>
+            <div class="info-header">
+                <p class="sub-title-heading">BEAUTIFUL RESPONSIVE WEB SITES</p><br>
+                <h4 class="title-heading">BUILT WITH W3.CSS</h4><br>
+                <button id="btn-header" class="btn-heading">LEARN W3.CSS</button>
+            </div>
+        </header>
+        <!-- modal -->
+        <div id="mod" class="modal">
+            <div class="info-modal">
+                <header class="header-modal color-teal white-clor">
+                    <p class="title-modal">Oh snap! We just showed you a modal..</p><br>
+                    <p>Because we can </p>
+                   
+                </header>
+                <i class="icon-modal fa-solid fa-xmark white-clor" onclick="closeModal()"></i>
+                <div class="content-modal">
+                    <p>Cool huh? Ok, enough teasing around..</p><br>
+                    <p>Go to our <a href="">W3.CSS Tutorial</a> to learn more!</p>
+                </div>
+                <footer class="footer-modal color-teal white-clor">
+                    <p>Modal footer</p>
+
+                </footer>
+            </div>
+        </div>
+        <div class="sidebar" id="side-bar">
+            <p class="title-sidebar">Side Navigation</p><br>
+            <ul>
+                <li><a href="#">Close <i class="fa-solid fa-circle-xmark"></i></a></li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+            </ul>
+
+        </div>
+        <div class="content">
+            <div class="row learn-list">
+                <div class="col l-4 s-12 mt-8">
+                    <div class="learn-item">
+                        <p class="title-item">Responsive</p><br>
+                        <i class="icon-item fa-solid fa-desktop"></i><br>
+                        <p class="text-item">Built-in responsiveness</p><br>
+                        <p class="text-item">Mobile first fluid grid</p><br>
+                        <p class="text-item">Fits any screen sizes</p><br>
+                        <p class="text-item">PC Tablet and Mobile</p>
+    
+                    </div>
+                </div>
+                <div class="col l-4 s-12 mt-8">
+                    <div class="learn-item">
+                        <p class="title-item">Standard CSS</p><br>
+                        <i class="icon-item fa-brands fa-css3"></i><br>
+                        <p class="text-item">Standard CSS only</p><br>
+                        <p class="text-item">Easy to learn</p><br>
+                        <p class="text-item">No need for jQuery</p><br>
+                        <p class="text-item">No JavaScript library</p>
+    
+                    </div>
+                </div>
+                <div class="col l-4 s-12 mt-8">
+                    <div class="learn-item">
+                        <p class="title-item">Design</p><br>
+                        <i class="icon-item fa-brands fa-sketch"></i><br>
+                        <p class="text-item">Paper like design</p><br>
+                        <p class="text-item">Bold colors and shadows</p><br>
+                        <p class="text-item">Equal across platforms</p><br>
+                        <p class="text-item">Equal across devices</p>
+    
+                    </div>
+                </div>
+            </div><hr>
+            <div class="color">
+                <p class="title-item-content">Color Classes</p>
+                <div class="color-list">
+                    <div class="l-2 s-12 color-item color-item-one">
+                        <p class="text-color">Red</p>
+                    </div>
+                    <div class="l-2 s-12 color-item color-item-second">
+                        <p class="text-color">Blue</p>
+                    </div>
+                    <div class="l-2 s-12 color-item color-item-third">
+                        <p class="text-color">Blue Grey</p>
+                    </div>
+                    <div class="l-2 s-12 color-item color-item-four">
+                        <p class="text-color">Teal</p>
+                    </div>
+                    <div class="l-2 s-12 color-item color-item-five">
+                        <p class="text-color">Yellow</p>
+                    </div>
+                    <div class="l-2 s-12 color-item color-item-six">
+                        <p class="text-color">Orange</p>
+                    </div>   
+                </div>
+            </div><hr>
+            <div class="built-in">
+                <p class="title-item-content">Built-In Responsiveness</p>
+                <p class="sub-title">Resize the page to see the effect!</p>
+                <div class="built-in-list">
+                    <div class="built-in-item l-6 s-12 color-blue">
+                        <p class="text-built-in">w3-half</p><br>
+                        <p class="text-built-in">The w3-half class uses half (50%) of the screen window.</p><br>
+                        <p class="text-built-in">On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
+                    </div>
+                    <div class="built-in-item l-6 s-12">
+                        <p class="text-built-in">w3-half</p>
+                    </div>
+                </div>
+                <div class="built-in-list">
+                    <div class="built-in-item l-4 s-12 color-green">
+                        <p class="text-built-in">w3-third</p><br>
+                        <p class="text-built-in">The w3-third class uses one third (33.33%) of the screen widow.</p><br>
+                        <p class="text-built-in">On small screens (max 600 pixels) it automatically resizes to full screen width.</p>                       
+                    </div>
+                    <div class="built-in-item l-4 s-12">
+                        <p class="text-built-in">w3-third</p>
+                    </div>
+                    <div class="built-in-item l-4 s-12">
+                        <p class="text-built-in">w3-third</p>
+                    </div>
+                </div>
+                <div class="built-in-list">
+                    <div class="built-in-item l-3 s-12 color-red">
+                        <p class="text-built-in">w3-quarter</p><br>
+                        <p class="text-built-in">The w3-quarter class uses one quarter (25%) of the screen window.</p><br>
+                        <p class="text-built-in">On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
+                    </div>
+                    <div class="built-in-item l-3 s-12">
+                        <p class="text-built-in">w3-quarter</p>
+                    </div>
+                    <div class="built-in-item l-3 s-12">
+                        <p class="text-built-in">w3-quarter</p>
+                    </div>
+                    <div class="built-in-item l-3 s-12">
+                        <p class="text-built-in">w3-quarter</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <p class="title-item-content">Containers</p>
+                <p class="sub-title">Use containers to create headers, sections and footers.</p>
+                <div class="header-contaniner">
+                    <h4 class="title-header">Header</h4>
+                </div>
+                <div class="des-info">
+                    <p class="title-des">London</p><br>
+                    <p class="sub-text-des">London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p><br>
+                    <p class="sub-text-des">Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p><br>
+                    <p class="sub-text-des">By the way, you can add a close icon to all containers if you want the ability to hide them. Look to your right!</p>
+                </div>
+                <div class="footer-contaniner">
+                    <p class="title-footer">Footer</p><br>
+                    <p class="sub-text-footer">Footer information goes here</p>
+                </div>                
+            </div><hr>
+            <div class="color-theme">
+                <p class="title-item-content">Color Themes</p>
+                <p class="sub-title">The color themes have been designed to work harmoniously with each other.</p>
+                <div class="row">
+                    <div class="col l-6 s-12 mt-8">
+                        <div class="theme-item">
+                            <p class="header-theme color-blue">Theme Indigo</p><br>
+                            <p class="movie-theme cl-blue">Movies 2014</p><hr>
+                            <p class="name-theme">Frozen</p><br>
+                            <p class="text-sub-name">The response to the animations was ridiculous</p><hr>
+                            <p class="name-theme">The Fault in Our Stars</p><br>
+                            <p class="text-sub-name">Touching, gripping and genuinely well made</p><hr>
+                            <p class="name-theme">The Avengers</p><br>
+                            <p class="text-sub-name">A huge success for Marvel and Disney</p><br>
+                            <p class="footer-theme color-blue">Next</p>
+                        </div>
+                    </div>
+                    <div class="col l-6 s-12 mt-8">
+                        <div class="theme-item">
+                            <p class="header-theme color-teal">Theme Indigo</p><br>
+                            <p class="movie-theme cl-teal">Movies 2014</p><hr>
+                            <p class="name-theme">Frozen</p><br>
+                            <p class="text-sub-name">The response to the animations was ridiculous</p><hr>
+                            <p class="name-theme">The Fault in Our Stars</p><br>
+                            <p class="text-sub-name">Touching, gripping and genuinely well made</p><hr>
+                            <p class="name-theme">The Avengers</p><br>
+                            <p class="text-sub-name">A huge success for Marvel and Disney</p><br>
+                            <p class="footer-theme color-teal">Next</p>
+                        </div>
+                    </div>
+                </div>                
+            </div><hr>
+            <div class="card">
+                <p class="title-item-content">Paper-like Cards with Shadows</p>
+                <div class="row">
+                    <div class="col l-4 s-12 mt-8">
+                        <div class="card-item">
+                            <img src="./assests/img/car.jpg" alt="">
+                            <p class="text-car">w3-card-4</p>
+                        </div>
+                    </div>
+                    <div class="col l-4 s-12 mt-8">
+                        <div class="card-item">
+                            <img src="./assests/img/car.jpg" alt="">
+                            <p class="text-car">w3-card-4</p>
+                        </div>
+                    </div>
+                    <div class="col l-4 s-12 mt-8">
+                        <div class="card-item">
+                            <img src="./assests/img/car.jpg" alt="">
+                            <p class="text-car">w3-card-4</p>
+                        </div>
+                    </div>
+                </div>                
+            </div><hr>
+            <div class="table">
+                <p class="title-item-content">Tables</p>
+                <p class="sub-title">Don't worry. W3.CSS takes care of your tables.</p>
+                <table>
+                    <thead class="tb-head">
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Jill</td>
+                        <td>Smith</td>
+                        <td>50</td>
+                      </tr>
+                      <tr>
+                        <td>Eve</td>
+                        <td>Jackson</td>
+                        <td>94</td>
+                      </tr>
+                      <tr>
+                        <td>Adam</td>
+                        <td>Johnson</td>
+                        <td>67</td>
+                      </tr>
+                </table>                
+            </div><hr>
+            <div class="form">
+                <p class="title-item-content">Forms and Lists</p>
+                <div class="row">
+                    <div class="col l-6 s-12 mt-8">
+                        <div class="form-item">
+                            <p class="title-form">Input Form</p><br>
+                            <form action="">
+                                <input type="text" name="" id="" class="form-control">
+                                <label for="">Name</label>
+                                <input type="email" name="" id="" class="form-control">
+                                <label for="">Email</label>
+                                <input type="text" name="" id="" class="form-control">
+                                <label for="">Subject</label>
+                                <div class="row check-radio">
+                                    <div class="col l-6">
+                                        <form action="">
+                                            <input type="checkbox" name="" id="" class="form-check" checked>
+                                            <label for="">Milk</label><br>
+                                            <input type="checkbox" name="" id="" class="form-check">
+                                            <label for="">Sugar</label><br>
+                                            <input type="checkbox" name="" id="" class="form-check" disabled>
+                                            <label for="">Lemon (Disabled)</label><br>
+                                        </form>
+                                    </div>
+                                    <div class="col l-6">
+                                        <form action="">
+                                            <input type="radio" name="radio-option" id="" class="form-radio" checked>
+                                            <label for="">Male</label><br>
+                                            <input type="radio" name="radio-option" id="" class="form-radio">
+                                            <label for="">Famale</label><br>
+                                            <input type="radio" name="radio-option" id="" class="form-radio" disabled>
+                                            <label for="">Don't know (Disabled)</label><br>
+                                        </form>
+                                    </div>
+                                </div>  
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col l-6 s-12 mt-8">
+                        <div class="form-item">
+                            <p class="title-form">Lists</p><br>
+                            <div class="tb-fist">
+                                <table>
+                                    <tr>
+                                        <td>Jill</td>
+                                        <td>Eva</td>
+                                        <td>Adam</td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                            <div class="tb-second">
+                                <table class="tb-sc">
+                                    <tr>
+                                        <th class="color-teal">Jill</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Eva</td>
+                                        <td>Adam</td>
+                                        <td>Steve</td>
+                                    </tr>
+                                </table>
+                            </div>                        
+                        </div>
+                    </div>          
+                </div>       
+            </div><hr>
+            <div class="progress">
+                <p class="title-item-content">Progress Bars</p>
+                <div class="father-bar">
+                    <div class="child-bar color-teal">0</div>
+                </div><br>
+                <button class="btn-bar color-teal">Click Me</button>
+                                   
+            </div><hr>
+            <div class="slide-show">
+                <p class="title-item-content">Slideshows</p>
+                    <div class="img-list">
+                        <div class="img-item">
+                            <img src="./assests/img/lights.jpg" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="./assests/img/mountains.jpg" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="./assests/img/forest.jpg" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="./assests/img/snow.jpg" alt="">
+                        </div>
+                        <a href="javascript:void(0)" class="plus-img" onclick="plusSlide(1)"><i class="fa-solid fa-angle-left"></i></a>  
+                        <a href="javascript:void(0)" class="pre-img" onclick="plusSlide(-1)"><i class="fa-solid fa-angle-right"></i></a>             
+                    </div> 
+            </div><hr>
+            <div class="nav-content">
+                <p class="title-item-content">Navigation</p>
+                <ul class="color-teal nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Link 1</a></li>
+                    <li><a href="">Dropdown <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="sub-nav">
+                            <li><a href="">Link 1</a></li>
+                            <li><a href="">Link 2</a></li>
+                            <li><a href="">Link 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                                   
+            </div><hr>
+            <div class="acc-content">
+                <p class="title-item-content">Accordions</p>
+                <button class="btn-acc color-teal" onclick="openBtn('item-one')">Open Section 1</button>
+                <div id="item-one" class="sc-it">
+                    <div class="section-item">
+                        <p class="text-section">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                </div>
+                <button class="btn-acc color-teal" onclick="openBtn('item-second')">Open Section 2</button>
+               <div id="item-second" class="sc-it">
+                   <div class="section-item">
+                       <ul>
+                           <li><a href="">Link 1</a></li>
+                           <li><a href="">Link 2</a></li>
+                           <li><a href="">Link 3</a></li>
+                       </ul>
+                   </div>
+
+               </div>
+                <button class="btn-acc color-teal" onclick="openBtn('item-third')">Open Section 3</button>
+                <div id="item-third" class="sc-it">
+                    <div class="section-third">
+                        <div class="section-item">
+                            <p class="text-img-third">Accordion with Images:</p><br>
+                            <img src="./assests/img/mountains.jpg" alt="">
+                            <p class="text-img-third">French Alps</p>
+                        </div>
+                    </div>
+
+                </div>
+                                   
+            </div><hr>
+            <div class="tab-content">
+                <p class="title-item-content">Tabs</p>
+                <div class="tab-list">
+                    <div class="tab-item color-teal">
+                        <button class="name-city tablinks" onclick="openCity(event,'london')">London</button>
+                        <button class="name-city tablinks" onclick="openCity(event,'pari')">Paris</button>
+                        <button class="name-city tablinks" onclick="openCity(event,'tokyo')">Tokyo</button>
+                    </div><br>
+                    <div id="london" class="info-tab-item city">
+                        <p class="title-tab">London</p><br>
+                        <p class="text-tab">London is the capital city of England.</p><br>
+                        <p class="text-tab">It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p><br>
+
+                    </div><br>
+                    <div id="pari" class="info-tab-item city none">
+                        <p class="title-tab">Paris</p><br>
+                        <p class="text-tab">Paris is the capital of France.</p><br>
+                        <p class="text-tab">The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p><br>
+
+                    </div><br>
+                    <div id="tokyo" class="info-tab-item city none">
+                        <p class="title-tab">Tokyo</p><br>
+                        <p class="text-tab">Tokyo is the capital of Japan.</p><br>
+                        <p class="text-tab">It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p><br>
+                    </div><br>
+                </div>
+                                   
+            </div><hr>
+            <div class="btn-content">
+                <p class="title-item-content">Buttons</p>
+                <div class="btn-list">
+                    <div class="btn-item">
+                        <div class="btn-text">
+                            <button class="btn color-teal">Button 1</button>
+                            <button class="btn color-teal">Button 2</button>
+                            <button class="btn btn-third color-teal">Button 3</button>
+                        </div><br>
+                        <div class="btn-icon">
+                            <i class="icon fa-solid fa-plus icon-frist"></i>
+                            <i class="icon fa-solid fa-plus color-teal"></i>
+                            <i class="icon fa-solid fa-plus icon-third"></i>
+                        </div><br>
+                        <div class="btn-drop">
+                            <button class="btn color-teal">DropDown <i class="fa-solid fa-angle-down"></i>
+                                <ul class="btn-ul">
+                                    <li><a href="">Link 1</a></li>
+                                    <li><a href="">Link 2</a></li>
+                                    <li><a href="">Link 3</a></li>
+                                </ul>
+                            </button>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+               
+                                   
+            </div><hr>
+            <div class="pag-content">
+                <p class="title-item-content">Pagination</p>
+                <div class="pag-list">
+                    <a href=""><i class="fa-solid fa-angles-left"></i></a>
+                    <a href="" class="color-teal white-clor">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                    <a href="">5</a>
+                    <a href=""><i class="fa-solid fa-angles-right"></i></a>
+                </div>
+                                 
+            </div>
+        </div>
+        <footer class="footer color-teal white-clor">
+            <p class="title-ft">Footer</p><br>
+            <p class="text-ft">Powered by <a href="" class="white-clor">w3.css</a></p><br>
+            <p class="text-ft">Remember to check out our <a href="" class="white-clor">W3.CSS Reference</a></p><br>
+
+        </footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
